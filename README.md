@@ -5,6 +5,11 @@ This CRUD HTTP API is built using Terraform, DynamoDB, Lambda, and Python on AWS
     <img src="./architecture/serverless-crud-http-api.png" width="600px"/>
 </div>
 
+# Requirements
+
+* [Terraform CLI](https://developer.hashicorp.com/terraform/downloads)
+* [AWS CLI v2](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) with AWS Account Configured
+
 # Scripts
 
 * ### create.sh

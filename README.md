@@ -7,13 +7,15 @@ This CRUD HTTP API is built using Terraform, DynamoDB, Lambda, and Python on AWS
 
 `chmod +x ./create.sh`
 
+#### Usage
+
+`./create.sh create read update delete`
+
 This script automates the process of creating a CRUD serverless API on AWS using Lambda functions, Terraform and Python. To use the script, follow the steps below:
 
     - Ensure that you have the necessary dependencies installed including Terraform and AWS CLI.
 
     - Clone the repository and navigate to the root directory.
-
-    - Modify the BUCKETNAME variable in the script to a unique name for your S3 bucket.
 
     - Execute the script with the following arguments: create, read, update and delete.
 

@@ -9,6 +9,7 @@ This CRUD HTTP API is built using Terraform, DynamoDB, Lambda, and Python on AWS
 
 * [Terraform CLI](https://developer.hashicorp.com/terraform/downloads)
 * [AWS CLI v2](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) with AWS Account Configured
+* [Python 3.10](https://www.python.org/downloads/)
 
 # Scripts
 
@@ -49,6 +50,8 @@ The serverless API is now up and running, and can be tested using the endpoints 
 This script is used to interact with a CRUD HTTP API built with DynamoDB and Lambda on AWS.
 
     - Clone the repository to your local machine.
+    
+    - Navigate to the root directory
     
     - Set the correct file permissions for the Bash script (e.g., chmod +x crud-script.sh).
     

@@ -6,6 +6,8 @@ API_ARGS=${2}
 if [[ -z $CRUD_ARGS || -z $API_ARGS ]]; then
 
     echo "Invalid or No Arguments Passed. Try: create, read, readone, update or delete as ARGS(1) and api-endpoint as ARGS(2)"
+    
+    exit 1
 
 else
 

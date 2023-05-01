@@ -1,7 +1,11 @@
 # serverless-crud-http-api
 This CRUD HTTP API is built using Terraform, DynamoDB, Lambda, and Python on AWS. It enables users to create, read, update, and delete items stored in a DynamoDB table through HTTP requests. Terraform is used to provision infrastructure resources, such as the API Gateway, DynamoDB table, and Lambda functions.
 
-### Usage
+# Scripts
+
+### create.sh
+
+`chmod +x ./create.sh`
 
 This script automates the process of creating a CRUD serverless API on AWS using Lambda functions, Terraform and Python. To use the script, follow the steps below:
 

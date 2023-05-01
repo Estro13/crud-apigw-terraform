@@ -35,7 +35,7 @@ The serverless API is now up and running, and can be tested using the endpoints 
 
 ### Usage:
 
-`./create.sh arg1 arg 2`
+`./create.sh arg1 arg2`
 
 This script is used to interact with a CRUD HTTP API built with DynamoDB and Lambda on AWS.
 

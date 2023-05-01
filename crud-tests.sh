@@ -74,7 +74,7 @@ else
 
         *)
 
-        echo "Invalid First Argument. Try: either "create", "read", "readone" "update", "delete""
+        echo "Invalid First Argument. Try: either "create", "read", "readone", "update", "delete""
 
         exit 1  
         ;;

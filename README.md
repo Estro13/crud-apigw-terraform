@@ -7,7 +7,7 @@ This CRUD HTTP API is built using Terraform, DynamoDB, Lambda, and Python on AWS
 
 `chmod +x ./create.sh`
 
-#### Usage
+### Usage:
 
 `./create.sh create read update delete`
 

@@ -62,5 +62,7 @@ else
     terraform apply -auto-approve
 
     echo "DONE"
+    
+    exit 0
 
 fi

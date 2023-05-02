@@ -70,4 +70,3 @@ This script is used to interact with a CRUD HTTP API built with DynamoDB and Lam
 `./delete.sh`
 
 This Bash script is designed to delete an AWS S3 bucket and its associated infrastructure using the AWS CLI and Terraform.
-Prerequisites

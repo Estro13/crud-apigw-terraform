@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BUCKETNAME="crud-serverless-api-bucket-tut"
+BUCKETNAME="bucket-for-arhived-lambdas-12-12-23"
 
 echo "Deleting S3 Bucket..."
 

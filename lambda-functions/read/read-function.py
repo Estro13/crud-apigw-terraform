@@ -30,7 +30,7 @@ def lambda_handler(event, context):
             response = dynamo.get_item(
                 TableName=value[0],
                 Key={
-                    'id': {'S': path_params['id']}
+                    'id': {'N': path_params['id']}
                 }
             )
             body = response['Item']

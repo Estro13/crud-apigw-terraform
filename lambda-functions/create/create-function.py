@@ -21,9 +21,11 @@ def lambda_handler(event, context):
             dynamo.put_item(
                 TableName=value[0],
                 Item={
-                    'id': {'S': request_json['id']},
-                    'price': {'S': request_json['price']},
-                    'name': {'S': request_json['name']}
+                    'id': {'N': request_json['id']},
+                    'name': {'S': request_json['name']},
+                    'surname': {'S': request_json['surname']},
+                    'position': {'S': request_json['position']},
+                    'salary': {'S': request_json['salary']},
                 }
             )
             body = f"Post item {request_json['id']}"
